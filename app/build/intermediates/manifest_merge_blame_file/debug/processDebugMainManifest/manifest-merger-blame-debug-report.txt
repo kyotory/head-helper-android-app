@@ -1,0 +1,207 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.journal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.0] C:\Users\slava\.gradle\caches\transforms-4\b0a4bf27f61cb290c0118dfae0e09e49\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.journal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.0] C:\Users\slava\.gradle\caches\transforms-4\b0a4bf27f61cb290c0118dfae0e09e49\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.0] C:\Users\slava\.gradle\caches\transforms-4\b0a4bf27f61cb290c0118dfae0e09e49\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.journal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.0] C:\Users\slava\.gradle\caches\transforms-4\b0a4bf27f61cb290c0118dfae0e09e49\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.0] C:\Users\slava\.gradle\caches\transforms-4\b0a4bf27f61cb290c0118dfae0e09e49\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:5:5-52:19
+18        android:allowBackup="true"
+18-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.13.0] C:\Users\slava\.gradle\caches\transforms-4\b0a4bf27f61cb290c0118dfae0e09e49\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="SUAI Head Helper"
+25-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+29-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:13:9-65
+30        <activity
+30-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:15:9-17:40
+31            android:name="com.example.journal.Stats"
+31-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:16:13-34
+32            android:exported="false" />
+32-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:17:13-37
+33        <activity
+33-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="com.example.journal.attendanceActivity"
+34-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:19:13-47
+35            android:exported="false" />
+35-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:20:13-37
+36        <activity
+36-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:21:9-23:40
+37            android:name="com.example.journal.SchedulePresentation"
+37-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:22:13-49
+38            android:exported="false" />
+38-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:23:13-37
+39        <activity
+39-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.example.journal.AddDisciplinesActivity"
+40-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:25:13-51
+41            android:exported="false" />
+41-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:27:9-29:40
+43            android:name="com.example.journal.DisciplinesActivity"
+43-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:28:13-48
+44            android:exported="false" />
+44-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:29:13-37
+45        <activity
+45-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:30:9-32:40
+46            android:name="com.example.journal.ListStudentActivity"
+46-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:31:13-48
+47            android:exported="false" />
+47-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:32:13-37
+48        <activity
+48-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:33:9-35:40
+49            android:name="com.example.journal.AddStudentActivity"
+49-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:34:13-47
+50            android:exported="false" />
+50-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:35:13-37
+51        <activity
+51-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:36:9-38:39
+52            android:name="com.example.journal.AddGroupActivity"
+52-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:37:13-45
+53            android:exported="true" />
+53-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:38:13-36
+54        <activity
+54-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:39:9-47:20
+55            android:name="com.example.journal.MainActivity"
+55-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:40:13-41
+56            android:exported="true" >
+56-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:41:13-36
+57            <intent-filter>
+57-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:42:13-46:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:43:17-69
+58-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:43:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:45:17-77
+60-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:45:27-74
+61            </intent-filter>
+62        </activity>
+63
+64        <meta-data
+64-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:49:9-51:57
+65            android:name="preloaded_fonts"
+65-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:50:13-43
+66            android:resource="@array/preloaded_fonts" />
+66-->C:\Users\slava\appHeadHelper\app\src\main\AndroidManifest.xml:51:13-54
+67
+68        <service
+68-->[androidx.room:room-runtime:2.6.1] C:\Users\slava\.gradle\caches\transforms-4\77bf1c5d626f9242cba4990ef975a816\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+69            android:name="androidx.room.MultiInstanceInvalidationService"
+69-->[androidx.room:room-runtime:2.6.1] C:\Users\slava\.gradle\caches\transforms-4\77bf1c5d626f9242cba4990ef975a816\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+70            android:directBootAware="true"
+70-->[androidx.room:room-runtime:2.6.1] C:\Users\slava\.gradle\caches\transforms-4\77bf1c5d626f9242cba4990ef975a816\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+71            android:exported="false" />
+71-->[androidx.room:room-runtime:2.6.1] C:\Users\slava\.gradle\caches\transforms-4\77bf1c5d626f9242cba4990ef975a816\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+72
+73        <activity
+73-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\slava\.gradle\caches\transforms-4\d7c4950e18728bc53b9edbce5ae9ade3\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+74            android:name="androidx.compose.ui.tooling.PreviewActivity"
+74-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\slava\.gradle\caches\transforms-4\d7c4950e18728bc53b9edbce5ae9ade3\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+75            android:exported="true" />
+75-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\slava\.gradle\caches\transforms-4\d7c4950e18728bc53b9edbce5ae9ade3\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+76        <activity
+76-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\slava\.gradle\caches\transforms-4\ce87ffc2a8633bc3498fcec93ff75385\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:23:9-25:39
+77            android:name="androidx.activity.ComponentActivity"
+77-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\slava\.gradle\caches\transforms-4\ce87ffc2a8633bc3498fcec93ff75385\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:24:13-63
+78            android:exported="true" />
+78-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\slava\.gradle\caches\transforms-4\ce87ffc2a8633bc3498fcec93ff75385\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:25:13-36
+79
+80        <provider
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\slava\.gradle\caches\transforms-4\795858da0a9cee5687d275446db26d25\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+81            android:name="androidx.startup.InitializationProvider"
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\slava\.gradle\caches\transforms-4\795858da0a9cee5687d275446db26d25\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+82            android:authorities="com.example.journal.androidx-startup"
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\slava\.gradle\caches\transforms-4\795858da0a9cee5687d275446db26d25\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+83            android:exported="false" >
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\slava\.gradle\caches\transforms-4\795858da0a9cee5687d275446db26d25\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+84            <meta-data
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\slava\.gradle\caches\transforms-4\795858da0a9cee5687d275446db26d25\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\slava\.gradle\caches\transforms-4\795858da0a9cee5687d275446db26d25\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+86                android:value="androidx.startup" />
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\slava\.gradle\caches\transforms-4\795858da0a9cee5687d275446db26d25\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\slava\.gradle\caches\transforms-4\f067f88227f7af71263af78e4fb835ed\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+88-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\slava\.gradle\caches\transforms-4\f067f88227f7af71263af78e4fb835ed\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+89                android:value="androidx.startup" />
+89-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\slava\.gradle\caches\transforms-4\f067f88227f7af71263af78e4fb835ed\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+92                android:value="androidx.startup" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+93        </provider>
+94
+95        <receiver
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+96            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+97            android:directBootAware="false"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+98            android:enabled="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+99            android:exported="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+100            android:permission="android.permission.DUMP" >
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+102                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+105                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+108                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+111                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\slava\.gradle\caches\transforms-4\ff0fc221216a5a2d1ba069601fdb3b24\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+112            </intent-filter>
+113        </receiver>
+114    </application>
+115
+116</manifest>

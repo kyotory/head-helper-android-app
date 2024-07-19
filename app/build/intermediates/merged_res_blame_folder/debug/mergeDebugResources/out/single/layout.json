@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/activity_add_disciplines.xml",
+        "source": "com.example.journal.app-main-66:/layout/activity_add_disciplines.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/activity_main.xml",
+        "source": "com.example.journal.app-main-66:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/list_student.xml",
+        "source": "com.example.journal.app-main-66:/layout/list_student.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/item_cardview.xml",
+        "source": "com.example.journal.app-main-66:/layout/item_cardview.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/item_schedule.xml",
+        "source": "com.example.journal.app-main-66:/layout/item_schedule.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/dialog_add_schedule.xml",
+        "source": "com.example.journal.app-main-66:/layout/dialog_add_schedule.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/activity_add_group.xml",
+        "source": "com.example.journal.app-main-66:/layout/activity_add_group.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/dialog_add_group.xml",
+        "source": "com.example.journal.app-main-66:/layout/dialog_add_group.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/dialog_add_student.xml",
+        "source": "com.example.journal.app-main-66:/layout/dialog_add_student.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/item_discipline.xml",
+        "source": "com.example.journal.app-main-66:/layout/item_discipline.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/student_item_stats.xml",
+        "source": "com.example.journal.app-main-66:/layout/student_item_stats.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/activity_attendance.xml",
+        "source": "com.example.journal.app-main-66:/layout/activity_attendance.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/add_student.xml",
+        "source": "com.example.journal.app-main-66:/layout/add_student.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/item_discipline_no_button.xml",
+        "source": "com.example.journal.app-main-66:/layout/item_discipline_no_button.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/item_student.xml",
+        "source": "com.example.journal.app-main-66:/layout/item_student.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/item_student_no_button.xml",
+        "source": "com.example.journal.app-main-66:/layout/item_student_no_button.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/activity_disciplines.xml",
+        "source": "com.example.journal.app-main-66:/layout/activity_disciplines.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/activity_stats.xml",
+        "source": "com.example.journal.app-main-66:/layout/activity_stats.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/activity_schedule_presentation.xml",
+        "source": "com.example.journal.app-main-66:/layout/activity_schedule_presentation.xml"
+    },
+    {
+        "merged": "com.example.journal.app-mergeDebugResources-63:/layout/dialog_add_discipline.xml",
+        "source": "com.example.journal.app-main-66:/layout/dialog_add_discipline.xml"
+    }
+]
